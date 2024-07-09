@@ -3,15 +3,6 @@
 ## Deskripsi
 Proyek ini bertujuan untuk mengembangkan model yang dapat mendeteksi teks sarkastik menggunakan teknik Natural Language Processing (NLP) dengan algoritma Naive Bayes. Dataset yang digunakan berisi judul-judul artikel berita yang sudah diberi label apakah bersifat sarkastik atau tidak.
 
-## Masalah
-Dalam konteks media sosial dan komunikasi daring, mendeteksi sarkasme dapat membantu dalam menganalisis sentimen pengguna atau konten secara lebih akurat. Identifikasi sarkasme dapat meningkatkan pemahaman terhadap konten yang diposting, serta membantu dalam analisis sentiment dan pengambilan keputusan yang lebih baik.
-
-## Tujuan
-1. Membangun model NLP menggunakan algoritma Naive Bayes untuk klasifikasi teks sarkastik.
-2. Mengimplementasikan CountVectorizer untuk mengubah teks menjadi representasi numerik.
-3. Melatih model menggunakan dataset yang telah diberi label.
-4. Memprediksi apakah teks baru bersifat sarkastik atau tidak.
-
 ## Langkah-langkah
 1. **Persiapan Data**: Memuat dataset `Sarcasm.json` yang berisi judul-judul artikel beserta labelnya.
 2. **Preprocessing**: Mengubah teks menjadi representasi numerik menggunakan `CountVectorizer`.
@@ -26,7 +17,7 @@ Dalam konteks media sosial dan komunikasi daring, mendeteksi sarkasme dapat memb
 - NumPy
 - Scikit-learn
 
-## Cara Jalankan File IPython Notebook
+## Cara Jalankan File 
 1. Pastikan Anda telah menginstal Python dan semua library yang diperlukan seperti yang disebutkan di atas.
 2. Unduh atau clone repository proyek ini ke dalam lokal komputer Anda.
 3. Buka terminal atau command prompt, lalu arahkan ke direktori di mana file IPython Notebook (`main.ipynb`) disimpan.
